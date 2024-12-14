@@ -7,9 +7,9 @@ const Home = () => {
   return (
     <div>
       <Menu />
-      <main>
+      <div>
            <CardsHome/>
-      </main>
+      </div>
     </div>
   );
 };

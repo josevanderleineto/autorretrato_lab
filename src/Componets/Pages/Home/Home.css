@@ -23,7 +23,7 @@
   /* Ajustes para telas médias */
   @media (max-width: 768px) {
     .card-responsive {
-      max-width: 700px; /* Ligeiramente menor no tablet */
+      max-width: 500px; /* Ligeiramente menor no tablet */
     }
   
     .card-text {
