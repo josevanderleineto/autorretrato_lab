@@ -27,7 +27,7 @@ const Cards = ({ description, imgSrc, textAlt }) => {
 
 const CardsHomes = () => {
   return (
-    <article className="container-fluid  py-4">
+    <article className="container py-4">
       {/* Título */}
       <div className="text-center mb-4">
         <h1 className="display-5">Autorretrato Lab</h1>
@@ -40,6 +40,7 @@ const CardsHomes = () => {
             <Cards 
               description={data.Description} 
               imgSrc={data.imgSrc} 
+              textAlt={data.altText} // Supondo que você tenha o campo "altText" no JSON
             />
           </div>
         ))}
