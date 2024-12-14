@@ -24,7 +24,7 @@ const CatalogComponent = () => {
     <div>
         <Menu />
       <article>
-        <h1 className="title">Autoretrato Lab</h1>
+        <h1 className="title">Autorretrato Lab</h1>
         <div className="container">
           <div className="row">
             {cardsData.map((card, index) => (
