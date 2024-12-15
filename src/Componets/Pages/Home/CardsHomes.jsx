@@ -30,7 +30,6 @@ const CardsHomes = () => {
     <article className="container py-4">
       {/* Título */}
       <div className="text-center mb-4">
-        <h1 className="display-5">Autorretrato Lab</h1>
       </div>
 
       {/* Lista de Cards */}

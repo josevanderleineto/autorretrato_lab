@@ -8,7 +8,11 @@ const Home = () => {
     <div>
       <Menu />
       <div>
+      <h1 className="display-5 text-center">Autorretrato Lab</h1>
+
            <CardsHome/>
+           <CardsHome/>
+
       </div>
     </div>
   );
